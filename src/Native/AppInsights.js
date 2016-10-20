@@ -1,4 +1,4 @@
-var _EngageSoftware$elm_application_insight$Native_AppInsight = function() {
+var _EngageSoftware$elm_application_insight$Native_AppInsights = function() {
 
     function trackEvent(data) {
         if (!window.appInsight) {

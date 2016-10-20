@@ -1,4 +1,4 @@
-module AppInsight exposing (trackEvent)
+module AppInsights exposing (trackEvent)
 
 {-| Native module for sending tracking information to Application Insight
 
@@ -6,11 +6,11 @@ module AppInsight exposing (trackEvent)
 -}
 
 import String
-import Native.AppInsight
+import Native.AppInsights
 
 
 {-| Track Event
 -}
 trackEvent : any -> any
 trackEvent =
-    Native.AppInsight.trackEvent
+    Native.AppInsights.trackEvent

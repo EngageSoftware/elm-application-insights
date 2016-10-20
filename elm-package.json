@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Native library for tracking event on Elm to Application Insight",
-    "repository": "https://github.com/EngageSoftware/elm-application-insight.git",
+    "repository": "https://github.com/EngageSoftware/elm-application-insights.git",
     "license": "Apache License Version 2.0",
     "source-directories": [
         "src"

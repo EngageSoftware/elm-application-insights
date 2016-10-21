@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Native library for tracking event on Elm to Application Insight",
     "repository": "https://github.com/EngageSoftware/elm-application-insights.git",
     "license": "Apache License Version 2.0",

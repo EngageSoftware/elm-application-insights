@@ -1,4 +1,4 @@
-var _EngageSoftware$elm_application_insight$Native_AppInsights = function() {
+var _EngageSoftware$elm_application_insights$Native_AppInsights = function() {
 
     function trackEvent(data) {
         if (!window.appInsight) {
@@ -8,4 +8,6 @@ var _EngageSoftware$elm_application_insight$Native_AppInsights = function() {
         window.appInsight.trackEvent(data);
         return data;
     }
-}
+
+    return { trackEvent : trackEvent };
+}();

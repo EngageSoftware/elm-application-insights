@@ -5,7 +5,8 @@ var _EngageSoftware$elm_application_insights$Native_AppInsights = function() {
             return data;
         } 
 
-        window.appInsight.trackEvent(data);
+        var str = _elm_lang$core$Basics$toString(data);
+        window.appInsight.trackEvent(str);
         return data;
     }
 
